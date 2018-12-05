@@ -1,0 +1,45 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  background-color: black;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: red;
+  color: white;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 13px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  div {
+    padding: 10px;
+  }
+}
+
+.content-section {
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-orange {
+  background-color: orange;
+}
